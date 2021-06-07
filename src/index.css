@@ -7,8 +7,8 @@
 }
 
 body {
-  background-color: black;
-  color:white;
+  background-color: #480032;
+  color:#fc92e3;
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
@@ -18,20 +18,21 @@ body {
 
 h1 {
   margin: 2rem;
+  text-align: center;
 }
 
 .board {
-  border: 1rem solid #ff652f;
-  background: #ff652f;
+  border: .5rem solid #fc92e3;
+  background: #fc92e3;
   width: 500px;
   height: 500px;
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-  gap: 1rem;
+  gap: .5rem;
 }
 
 .squares {
-  background: #272727;
+  background: #480032;
   border: none;
   font-size: 5rem;
   cursor: pointer;
@@ -39,11 +40,11 @@ h1 {
 }
 
 .X {
-  color: red;
+  color: #005792;
 }
 
 .O {
-  color: green;
+  color: #f2f4c3;
 }
 
 .info-wrapper {
